@@ -34,7 +34,7 @@ module.exports = {
         apiKey: 'GOOGLE_API_KEY',
         tab: 'TAB_NAME' // Optional - must match the name of the tab in the Google Sheet.
         type: 'TYPE_NAME', // Optional - default is googleSheet. Used for graphql queries.
-        imageFields: ['COLUMN_NAME','COLUMN_NAME'] // Optional - must be an array of column names. Columns must contain direct to URLs to image files that publicly accessible
+        imageFields: ['COLUMN_NAME','COLUMN_NAME'] // Optional - must be an array of column names. Columns must contain direct URLs to image files that are publicly accessible
       }
     },
     {
@@ -44,7 +44,7 @@ module.exports = {
         apiKey: 'GOOGLE_API_KEY',
         tab: 'SECOND_TAB_NAME' // Optional - must match the name of the tab in the Google Sheet.
         type: 'SECOND_TYPE_NAME', // Optional - default is googleSheet. Used for graphql queries.
-        imageFields: ['COLUMN_NAME','COLUMN_NAME'] // Optional - must be an array of column names. Columns must contain direct to URLs to image files that publicly accessible
+        imageFields: ['COLUMN_NAME','COLUMN_NAME'] // Optional - must be an array of column names. Columns must contain direct URLs to image files that are publicly accessible
       }
     }
   ]
