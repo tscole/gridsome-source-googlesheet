@@ -1,0 +1,24 @@
+{
+  "name": "gridsome-source-googlesheet",
+  "version": "1.0.0",
+  "description": "Source plugin for pulling data from Google Sheet include image downloads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "vuejs",
+    "google-docs",
+    "google-sheets",
+    "gridsome-source-plugin"
+  ],
+  "author": "Tim Cole",
+  "license": "ISC",
+  "dependencies": {
+    "async-get-file": "^1.0.4",
+    "fs-extra": "^9.1.0",
+    "googleapis": "^67.1.0"
+  }
+}
