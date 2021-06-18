@@ -11,11 +11,11 @@ Gridsome: >0.7.0
 ## Install
 
 ```js
-yarn add gridsome-source-googlesheets
+yarn add gridsome-source-googlesheet
 ```
 npm
 ```js
-npm install gridsome-source-googlesheets
+npm install gridsome-source-googlesheet
 ```
 
 ## How to use
