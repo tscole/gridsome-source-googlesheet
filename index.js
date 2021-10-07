@@ -67,7 +67,7 @@ class GoogleSheetSource {
               );
               node[field] = finalpath;
             } else {
-              node[field] = "";
+              node[field] = null;
             }
           }
         }

@@ -1,6 +1,6 @@
 {
   "name": "gridsome-source-googlesheet",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Source plugin for pulling data from Google Sheet including multiple tabs and image downloads",
   "main": "index.js",
   "scripts": {
